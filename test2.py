@@ -3,7 +3,7 @@ import requests
 import locale
 from bs4 import BeautifulSoup
 
-# For extracting the price from amazon.fr url
+# For extracting the price from amazon.fr urls
 locale.setlocale(locale.LC_ALL, 'fr_FR.UTF8')
 conv = locale.localeconv()
 
